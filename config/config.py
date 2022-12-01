@@ -9,17 +9,17 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "16201655"))
 API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
-BOT_TOKEN = getenv("BOT_TOKEN", "2121214342:AAHRS2mg4UINrAoEO_lzMwR_PwYOq2xMnjI")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001853541618"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ғᴀʟʟᴇɴ2.0ダ ᴍᴜ𝕤ɪᴄ ダ𝕃𝕖𝕘𝕖𝕟𝕕​")
+BOT_TOKEN = getenv("BOT_TOKEN", "5887844944:AAF9XMi5pTudOnRJ9vheorM4XiX2-s-1GNA")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ajaypagrut:ajaypagrut1234@cluster0.diwvjr6.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001898635671"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " ˹𝓲𝓷𝓿𝓲𝓼𝓲𝓫𝓵𝓮 ✘ ℳ𝓾𝓼𝓲c͢˼ ")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5037053047").split())
+    map(int, getenv("OWNER_ID", "5418555215").split())
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/FallenXMusic")
+    "SUPPORT_CHANNEL", "https://t.me/invisiblesecuritycyberbuck")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/FALLEN_BOT_SUPPORT")
+    "SUPPORT_GROUP", "https://t.me/invisiblesecuritycyberbuckchat")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006")
@@ -75,8 +75,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQAZtS9Kyb1KFpN18WVPSGsHfYBAw761ck2VVZRhNy9shBz7YCfQjW5Hzf3JvapJGsLmkjpQ3hAhhXcPVqT58bC8gfp1mbX5Rp5DPiZ20NqXrpCmCC9gio-hM1J-_bNsau2woMGi6S_q8LjirxknPG1GVTA-vFIYLvd_51h7H-IkkR9aFm1AOrbYlMTq1m3RcLp9UQaGUDCUnZlIDPbmnthw3-VuNtigqroYYeOexKcqeT1EcX6HpvyCmwNL6MiClKAfyhAtuQNWNMMLaGoZ1z2eejZnlh6DyPXgcnnsdy6Shu2zYvs3qzTIY41JDhD241BUnSoy3_-yWPFaG0uVISoIAAAAAUbjsGwA")
-STRING2 = getenv("STRING_SESSION2", "AQBzluX3JSP6v-pZcu6w91rZGTboK6wMQoTSXmVzhxwkwTkc0xMQ9l_BtdhXGVljmigaEHcp7-SEu8mMqs2k6EYbJQx-7evcSpViEbIguPVRAJOBDl50uG-Xg6xvFr4tsVRvBbcE75CX-ggWchMVY5zjUtGSLc8drnRoizbeAL5OIWz5ECzzSM5otvv1OHVtSzHjG2BIygAuCp3tgmISqaWNgY_oOenQLy6lp57RlqMDapB4x15XIlkRvvpy4X5QX3gcv5adcODr59u5N-4QaXXaHk25UQ4aysgd-cqElDanCrlyESCF6eWg928kAQ30CQgQdNeVzFe7rXjrFmiReZpEAAAAAVUGtKUA")
+STRING1 = getenv("STRING_SESSION", "BQAckfcDRoCWj0QfOxEjIBthZnTlorcxzClM8PIyChqAA-pzgUF3eBOUXKH3g6dxS8hfNOPH9blmZjyGCZbYJMjMad-d8Tjv6Alht8cK0EeyhnNLrqUu-cKoIQy9Ixde5N6dn7o-v5tYABkHM5soT-_y7AjeQWWvuK5bIcAF54T-2xnA6AXuBjFa_DtvwJstbHt57bjPe6L4yztQxkVFQ8O2vJI6SuU-zZ3Hsifk7nn8OOBxQmbyGj_Mxe5qilWQG_U9M0kxWyftqow3ZMmfCDU4P3GaKWC-4oIWawzbowOsw97AVG4bx_1fTSH3Wl6viGbGLLYmYC0RvbpJzHsCNWj1AAAAAT073asA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -97,42 +97,42 @@ START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d9c4eca81a3d97
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "assets/Stream.jpeg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "assets/Soundcloud.jpeg",
+    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
@@ -193,7 +193,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
+    if GLOBAL_IMG_URL != "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -202,7 +202,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
+    if STATS_IMG_URL != "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -211,7 +211,7 @@ if STATS_IMG_URL:
 
 
 if TELEGRAM_AUDIO_URL:
-    if TELEGRAM_AUDIO_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
+    if TELEGRAM_AUDIO_URL != "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_AUDIO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_AUDIO_URL url is wrong. Please ensure that it starts with https://"
@@ -246,7 +246,7 @@ if YOUTUBE_IMG_URL:
 
 
 if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
+    if TELEGRAM_VIDEO_URL != "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
