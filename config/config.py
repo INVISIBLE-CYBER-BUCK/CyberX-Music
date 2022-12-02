@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
 BOT_TOKEN = getenv("BOT_TOKEN", "5887844944:AAF9XMi5pTudOnRJ9vheorM4XiX2-s-1GNA")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001898635671"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " ˹𝑰𝒏𝒗𝒊𝒔𝒊𝒃𝒍𝒆 𝑪𝒚𝒃𝒆𝒓 𝑩𝒖𝒄𝒌 ℳ𝓾𝓼𝓲c͢˼ ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " ˹ᴇʟʟɪᴇ ℳ𝓾𝓼𝓲c͢˼ ")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5418555215").split())
 )
@@ -93,11 +93,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/dd547383e5e97344161b1.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
